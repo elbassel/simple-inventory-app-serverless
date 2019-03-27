@@ -1,4 +1,4 @@
-<h3>Simple Inventory Management using serverless:</h3>
+<h3>Simple Inventory Management:</h3>
 <p>Is a simple inventory management&nbsp;app to do the following:</p>
 <ul>
 <li>Add new items to the inventory.</li>
@@ -18,6 +18,19 @@
 <p>&gt; cd&nbsp;simple-inventory-app-serverless</p>
 <p>&gt;npm install</p>
 <p>&gt; serverless deploy</p>
+<p>&nbsp;</p>
+<p>APIs:</p>
+<ul>
+<li>GET /items&nbsp; &nbsp; to get all items</li>
+<li>Get /items/:id&nbsp; &nbsp; to get items by ID</li>
+<li>PUT /items/:id&nbsp; &nbsp;to update an item</li>
+<li>Post&nbsp; /items&nbsp; &nbsp; to create an item</li>
+<li>Patch&nbsp; &nbsp;/items/:id/quantity?operation=goIn|comeOut
+<ul>
+<li>to let items go in inventory or come out&nbsp;of inventory</li>
+</ul>
+</li>
+</ul>
 <p>Then you will notice the functions are deployed and their APIs are listed in the terminal.</p>
 <p>&nbsp;</p>
 <p>You can find the front end part here:</p>
