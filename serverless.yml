@@ -65,6 +65,6 @@ functions:
     handler: handler.itemProcess
     events:
       - http:
-          path: items/{id}
+          path: items/{id}/quantity
           method: patch
           cors: true
